@@ -137,4 +137,5 @@ workflow egapx {
         gnomon_quality_report = gnomon_plane.out.gnomon_quality_report
         gnomon_report = gnomon_plane.out.gnomon_report
         //converted_outs = converted_outs
+        bam_alignments = rnaseq_short_plane.out.bam_alignments
 }

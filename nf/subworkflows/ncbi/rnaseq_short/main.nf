@@ -80,5 +80,6 @@ workflow rnaseq_short_plane {
         }
         
     emit:
-        rnaseq_alignments = rnaseq_collapse.out.alignments 
+        rnaseq_alignments = rnaseq_collapse.out.alignments
+        bam_alignments = ch_align 
 }

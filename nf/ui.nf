@@ -23,6 +23,7 @@ process export {
         path stats, stageAs: 'stats/*'
         path annotated_genome_asn
         path annotation_data_comment
+        path bam_alignment, stageAs: 'star_bams'
         // path locus
     output:
         path "*", includeInputs: true
@@ -97,5 +98,6 @@ workflow {
            egapx.out.validated,
            egapx.out.stats,
            egapx.out.annotated_genome_asn,
-           egapx.out.annotation_data_comment)
+           egapx.out.annotation_data_comment,
+           egapx.out.bam_alignments)
 }
