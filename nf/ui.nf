@@ -23,7 +23,7 @@ process export {
         path stats, stageAs: 'stats/*'
         path annotated_genome_asn
         path annotation_data_comment
-        path bam_alignment, stageAs: 'star_bams'
+        path bam_alignment, stageAs: 'star_bams/*'
         // path locus
     output:
         path "*", includeInputs: true
