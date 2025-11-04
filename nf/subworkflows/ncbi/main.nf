@@ -233,5 +233,5 @@ workflow egapx {
         gnomon_biotype_contam_rpt = annot_proc_plane.out.gnomon_biotype_contam_rpt 
         mask_stats = winmask_plane.out.mask_stats
         //converted_outs = converted_outs
-        bam_alignments = rnaseq_short_plane.out.bam_alignments
+        //bam_alignments = rnaseq_short_plane.out.bam_alignments
 }
